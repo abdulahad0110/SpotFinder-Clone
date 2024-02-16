@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.NAVBAR{
+    position: sticky;
+    border-bottom: 1px solid #e23744;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.main-logo{
+    height: 40px;
+    width: auto;
+}
+#navbar ul a{
+    color: rgb(107 114 128);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 2px 18px;
+}
+#navbar ul a:hover{
+    color: #ef4444;
+}
+#navbar ul li{
+    list-style: none;
+    margin: 20px 0px;
+}
+.btn-login{
+    color: #6b7280;
+    padding: 5px 8px;
+    font-weight: 500;
+    border: none;
+    margin-right: 6px;
+}
+.btn-login:hover{
+    color: #ef4444;
+    font-weight: 600;
+}
+.bttn{
+    background-color: #e23744;
+    color: #fff;
+    border: none;
+    padding: 5px 16px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.header{
+    margin: 90px 0px;
+    padding: 0px 32px;
+}
+.form{
+    padding-right: 75px;
+}
+.header h1{
+    color: #475467;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.header h1 span{
+    color: #e23744;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.header p{
+    color: #475467;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.location input{
+    width: 100%;
+    border: 2px solid #e23744;
+    padding: 16px;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 7px;
+}
+.selection select{
+    width: 100%;
+    outline: none;
+    border: 2px solid #e23744;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 7px;
+}
+.check{
+    display: flex;
+    justify-content: space-around;
+}
+.check-btn input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #e23744;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 7px;
+}
+.btn{
+    padding: 16px 32px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #e23744;
+    color: #fff;
+    font-weight: 500;
+}
+.section-2 .content{
+    text-align: center;
+}
+.section-2 h1{
+    color: #2d3748;
+    font-weight: 600;
+    font-size: 48px;
+}
+.section-2 p{
+    color: #2d3748;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.card img{
+    height: 200px;
+    width: 27vw;
+    border-radius: 10px 10px 0px 0px;
+}
+.cards h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #2d3748;
+    margin: 20px 8px 0px;
+}
+.card-btn{
+    padding: 16px 20px;
+    background-color: #e23744;
+    font-weight: 500;
+    color: #fff;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 24px;
+}
